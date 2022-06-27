@@ -22,5 +22,5 @@
 }
 
 .sidebarOption--active {
-    color: var(--twitter-color)
+    color: var(--twitter-color);
 }
