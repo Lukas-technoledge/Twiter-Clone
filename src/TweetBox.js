@@ -11,7 +11,7 @@ function TweetBox() {
             <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
             <input placeholder="what's happening" type="text" />
         </div>
-        <Button>Tweet</Button>
+        <Button className='tweetBox__tweetButton'>Tweet</Button>
       </form>
     </div>
   )
