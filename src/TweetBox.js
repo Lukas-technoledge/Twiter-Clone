@@ -9,7 +9,7 @@ function TweetBox() {
       <form>
         <div className="tweetBox__input">
             <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
-            <input placeholder="what's happening" type="text" />
+            <input placeholder="what's happening?" type="text" />
         </div>
         <Button className='tweetBox__tweetButton'>Tweet</Button>
       </form>
