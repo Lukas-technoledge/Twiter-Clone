@@ -13,7 +13,12 @@ function Feed() {
       <TweetBox />
 
       {/* post*/}
-      <Post />
+      <Post displayName = 'Chialuka Prisca-mary Onuoha'
+       userName = 'Lukas_T_noledge'
+       verified = {true}
+       text = 'I am the greatest' 
+      image = 'https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif'
+       avatar = '/static/images/avatar/3.jpg' />
       <Post />
       <Post />
       <Post />

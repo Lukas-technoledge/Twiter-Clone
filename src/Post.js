@@ -11,18 +11,18 @@ function Post({displayName, userName, verified, text,image, avatar}) {
   return (
     <div className='post'>
       <div className="post__avatar">
-        <Avatar />
+        <Avatar alt="Cindy Baker" src={avatar}/>
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headerText">
-            <h3>Chialuka Prisca-mary Onuoha {" "} <span className='post__headerSpecial'> <VerifiedIcon className='post__badge' /> @Lukas_T_noledge </span> </h3>
+            <h3>{displayName} {" "} <span className='post__headerSpecial'> {verified && <VerifiedIcon className='post__badge' />} @{userName} </span> </h3>
           </div>
           <div className="post__headerDescription">
-            <p>Build me a twitter clone</p>
+            <p>{text}</p>
           </div>
         </div>
-        <img src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt="post image" className='post__image' />
+        <img src={image} alt="post image" className='post__image' />
         <div className="post__footer">
           <ChatBubbleOutlineIcon fontSize='small' />
           <RepeatIcon fontSize='small' />
